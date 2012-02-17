@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VTriggerRelative.cs" company="4verse">
+// <copyright file="TriggerRelative.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -14,7 +14,7 @@ namespace Versit.VCalendar
     public class TriggerRelative : Duration, ITrigger
     {
         /// <summary>
-        /// Initializes a new instance of the VTrigger class.
+        /// Initializes a new instance of the TriggerRelative class.
         /// </summary>
         /// <remarks>
         /// Sets a default duration of 15 minutes before the start.
@@ -25,7 +25,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Initializes a new instance of the VTrigger class.
+        /// Initializes a new instance of the TriggerRelative class.
         /// </summary>
         /// <param name="hours">Number of hours</param>
         /// <param name="minutes">Number of minutes</param>
@@ -36,7 +36,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Initializes a new instance of the VTrigger class.
+        /// Initializes a new instance of the TriggerRelative class.
         /// </summary>
         /// <param name="days">Number of days</param>
         /// <param name="hours">Number of hours</param>
@@ -48,7 +48,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Initializes a new instance of the VTrigger class.
+        /// Initializes a new instance of the TriggerRelative class.
         /// </summary>
         /// <param name="value">Duration of this trigger</param>
         /// <remarks>Initializes a relative trigger</remarks>
@@ -60,7 +60,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Gets which point of the event this trigger's duration
+        /// Gets or sets which point of the event this trigger's duration
         /// relates to (start or end).
         /// </summary>
         public RelatedType Related

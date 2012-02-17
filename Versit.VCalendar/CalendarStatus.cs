@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VStatus.cs" company="4verse">
+// <copyright file="CalendarStatus.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VEmailAlarm.cs" company="4verse">
+// <copyright file="EmailAlarm.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------

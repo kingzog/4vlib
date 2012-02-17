@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VAttendee.cs" company="4verse">
+// <copyright file="Attendee.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -19,7 +19,7 @@ namespace Versit.VCalendar
     public class Attendee : CalAddress
     {
         /// <summary>
-        /// Initializes a new instance of the VAttendee class.
+        /// Initializes a new instance of the Attendee class.
         /// </summary>
         /// <param name="attendee">URI of the attendee</param>
         /// <example>
@@ -34,7 +34,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Initializes a new instance of the VAttendee class.
+        /// Initializes a new instance of the Attendee class.
         /// </summary>
         /// <param name="name">Name of this property</param>
         /// <param name="attendee">URI of the attendee</param>

@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VDisplayAlarm.cs" company="4verse">
+// <copyright file="DisplayAlarm.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------

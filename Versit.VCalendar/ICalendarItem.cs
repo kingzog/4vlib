@@ -36,17 +36,17 @@ namespace Versit.VCalendar
         DateTime? Starts { get; set; }
 
         /// <summary>
-        /// Gets the co-ordinates.
+        /// Gets or sets the co-ordinates.
         /// </summary>
         Coordinates Coordinates { get; set; }
         
         /// <summary>
-        /// Gets the organiser.
+        /// Gets or sets the organiser.
         /// </summary>
         Attendee Organizer { get; set; }
 
         /// <summary>
-        /// Gets any associated resources.
+        /// Gets or sets any associated resources.
         /// </summary>
         IEnumerable<string> Resources { get; set; }
 

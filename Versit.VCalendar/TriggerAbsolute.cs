@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VTriggerAbsolute.cs" company="4verse">
+// <copyright file="TriggerAbsolute.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -15,7 +15,7 @@ namespace Versit.VCalendar
     public class TriggerAbsolute : Property<DateTime>, ITrigger
     {
         /// <summary>
-        /// Initializes a new instance of the VTriggerAbsolute class.
+        /// Initializes a new instance of the TriggerAbsolute class.
         /// </summary>
         public TriggerAbsolute()
             : this(new DateTime())
@@ -23,7 +23,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Initializes a new instance of the VTriggerAbsolute class.
+        /// Initializes a new instance of the TriggerAbsolute class.
         /// </summary>
         /// <param name="value">DateTime this trigger will activate</param>
         /// <remarks>Initializes an absolute trigger</remarks>

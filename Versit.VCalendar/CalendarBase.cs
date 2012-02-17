@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VCalendarBase.cs" company="4verse">
+// <copyright file="CalendarBase.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -24,7 +24,7 @@ namespace Versit.VCalendar
     public abstract class CalendarBase : VersitBase, ICalendarItem
     {
         /// <summary>
-        /// Initializes a new instance of the VCalendarBase class.
+        /// Initializes a new instance of the CalendarBase class.
         /// </summary>
         /// <param name="type">Calendar object type (must be either VEVENT or VTODO)</param>
         /// <exception cref="System.ArgumentException">Cannot initialise a VCalendarBase class using any ObjectType except VEVENT, VTOTO or VJOURNAL</exception>
@@ -155,7 +155,7 @@ namespace Versit.VCalendar
         /// </summary>
         public VersitObjectCollection Alarms
         {
-            get { return this.InnerElements[VersitObjectType.VALARM]; ; }
+            get { return this.InnerElements[VersitObjectType.VALARM]; }
         }
     }
 }

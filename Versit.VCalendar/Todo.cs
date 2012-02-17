@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VTodo.cs" company="4verse">
+// <copyright file="Todo.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -18,7 +18,7 @@ namespace Versit.VCalendar
     public class Todo : CalendarBase
     {
         /// <summary>
-        /// Initializes a new instance of the VTodo class.
+        /// Initializes a new instance of the Todo class.
         /// </summary>
         public Todo()
             : base(VersitObjectType.VTODO)

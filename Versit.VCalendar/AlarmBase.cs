@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VAlarmBase.cs" company="4verse">
+// <copyright file="AlarmBase.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -18,7 +18,7 @@ namespace Versit.VCalendar
     public abstract class AlarmBase : VersitBase, IAlarm
     {
         /// <summary>
-        /// Initializes a new instance of the VAlarm class.
+        /// Initializes a new instance of the AlarmBase class.
         /// </summary>
         /// <param name="action">Alarm action that should be triggered</param>
         /// <param name="trigger">Trigger for this alarm</param>
@@ -31,7 +31,7 @@ namespace Versit.VCalendar
         }
 
         /// <summary>
-        /// Gets the action to take when this alarm is triggered.
+        /// Gets or sets the action to take when this alarm is triggered.
         /// </summary>
         public AlarmAction Action
         {

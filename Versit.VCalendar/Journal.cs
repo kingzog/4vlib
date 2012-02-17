@@ -12,12 +12,13 @@ namespace Versit.VCalendar
     /// Represents one or more descriptive text notes 
     /// associated with a particular calendar date.
     /// </summary>
+    /// <remarks>
+    /// See http://www.kanzaki.com/docs/ical/vjournal.html
+    /// </remarks>
     public class Journal : CalendarBase
     {
-        // http://www.kanzaki.com/docs/ical/vjournal.html
-
         /// <summary>
-        /// Initializes a new instance of the VJournal class.
+        /// Initializes a new instance of the Journal class.
         /// </summary>
         public Journal()
             : base(VersitObjectType.VJOURNAL)

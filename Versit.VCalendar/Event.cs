@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VEvent.cs" company="4verse">
+// <copyright file="Event.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -15,7 +15,7 @@ namespace Versit.VCalendar
     public class Event : CalendarBase
     {
         /// <summary>
-        /// Initializes a new instance of the VEvent class.
+        /// Initializes a new instance of the Event class.
         /// </summary>
         public Event()
             : base(VersitObjectType.VEVENT)

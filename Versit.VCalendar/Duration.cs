@@ -1,4 +1,10 @@
-﻿namespace Versit.VCalendar
+﻿//-----------------------------------------------------------------------
+// <copyright file="Duration.cs" company="4verse">
+//     Copyright (C) 4verse. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+
+namespace Versit.VCalendar
 {
     using System;
     using System.Collections.Generic;
@@ -20,7 +26,7 @@
         private const string DurationRegularExpression = @"[\+|\-]?(P([0-9]*[W|D])*)|(T([0-9]*[H|M|S])*)";
 
         /// <summary>
-        /// Initialises a new instance of the VDuration class.
+        /// Initializes a new instance of the Duration class.
         /// </summary>
         /// <param name="name">Property name</param>
         public Duration(string name)
@@ -29,7 +35,7 @@
         }
 
         /// <summary>
-        /// Initialises a new instance of the VDuration class.
+        /// Initializes a new instance of the Duration class.
         /// </summary>
         /// <param name="name">Property name</param>
         /// <param name="hours">Number of hours</param>
@@ -41,7 +47,7 @@
         }
 
         /// <summary>
-        /// Initialises a new instance of the VDuration class.
+        /// Initializes a new instance of the Duration class.
         /// </summary>
         /// <param name="name">Property name</param>
         /// <param name="days">Number of days</param>
@@ -54,7 +60,7 @@
         }
 
         /// <summary>
-        /// Initialises a new instance of the VDuration class.
+        /// Initializes a new instance of the Duration class.
         /// </summary>
         /// <param name="name">Property name</param>
         /// <param name="value">TimeSpan value</param>
@@ -64,7 +70,7 @@
         }
 
         /// <summary>
-        /// Initialises a new instance of the VDuration class.
+        /// Initializes a new instance of the Duration class.
         /// </summary>
         /// <param name="name">Property name</param>
         /// <param name="value">String duration value</param>

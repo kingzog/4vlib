@@ -1,4 +1,10 @@
-﻿namespace Versit.VCalendar
+﻿//-----------------------------------------------------------------------
+// <copyright file="TransparencyType.cs" company="4verse">
+//     Copyright (C) 4verse. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+
+namespace Versit.VCalendar
 {
     /// <summary>
     /// The characteristic of an event that determines whether it appears to consume time on a calendar.
