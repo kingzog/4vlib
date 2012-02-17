@@ -17,7 +17,7 @@ namespace Versit.Core
     public class BinaryData : Property<string>, IProperty
     {
         /// <summary>
-        /// Initializes a new instance of the VBinary class.
+        /// Initializes a new instance of the BinaryData class.
         /// </summary>
         /// <param name="name">Property name</param>
         public BinaryData(string name)

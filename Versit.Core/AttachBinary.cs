@@ -17,7 +17,7 @@ namespace Versit.Core
     public class AttachBinary : Image, IProperty, IAttachment
     {
         /// <summary>
-        /// Initializes a new instance of the VAttachBinary class.
+        /// Initializes a new instance of the AttachBinary class.
         /// </summary>
         public AttachBinary()
             : base("ATTACH")

@@ -22,16 +22,6 @@ namespace Versit.Core
         private List<IVersitObject> collection = new List<IVersitObject>();
 
         /// <summary>
-        /// Gets the <c>IVObject</c> at the specified index.
-        /// </summary>
-        /// <param name="index">Index of the value to return</param>
-        /// <returns>An IVObject object</returns>
-        public IVersitObject this[int index]
-        {
-            get { return this.collection[index]; }
-        }
-
-        /// <summary>
         /// Gets the number of items in this collection.
         /// </summary>
         public int Count
@@ -45,6 +35,16 @@ namespace Versit.Core
         public bool IsReadOnly
         {
             get { return false; }
+        }
+
+        /// <summary>
+        /// Gets the <c>IVObject</c> at the specified index.
+        /// </summary>
+        /// <param name="index">Index of the value to return</param>
+        /// <returns>An IVObject object</returns>
+        public IVersitObject this[int index]
+        {
+            get { return this.collection[index]; }
         }
 
         /// <summary>

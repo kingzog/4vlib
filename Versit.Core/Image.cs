@@ -17,7 +17,7 @@ namespace Versit.Core
     public class Image : Property<string>
     {
         /// <summary>
-        /// Initializes a new instance of the VImage class.
+        /// Initializes a new instance of the Image class.
         /// </summary>
         /// <param name="name">Property name</param>
         public Image(string name)
@@ -29,7 +29,7 @@ namespace Versit.Core
         }
 
         /// <summary>
-        /// Initializes a new instance of the VImage class.
+        /// Initializes a new instance of the Image class.
         /// </summary>
         /// <param name="name">Name of this property</param>
         /// <param name="data">Data to encode</param>

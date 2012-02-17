@@ -86,7 +86,7 @@
     <Compile Include="Event.cs" />
     <Compile Include="Journal.cs" />
     <Compile Include="ProcedureAlarm.cs" />
-    <Compile Include="Status.cs" />
+    <Compile Include="CalendarStatus.cs" />
     <Compile Include="Todo.cs" />
     <Compile Include="TriggerAbsolute.cs" />
     <Compile Include="TriggerRelative.cs" />

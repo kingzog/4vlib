@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections.Specialized;
-
-namespace Versit.VCalendar
+﻿namespace Versit.VCalendar
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Collections.Specialized;
+
     // see http://www.kanzaki.com/docs/ical/recur.html
 
     public class RecurrenceRuleBase

@@ -7,9 +7,9 @@
 namespace Versit.Core
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
     using System.Globalization;
+    using System.Linq;
     using Versit.Core.Properties;
 
     /// <summary>
@@ -65,7 +65,7 @@ namespace Versit.Core
         public const string DateTimeFormat = "o";
 
         /// <summary>
-        /// Initializes a new instance of the VBase class.
+        /// Initializes a new instance of the VersitBase class.
         /// </summary>
         /// <param name="type">Versit object type</param>
         /// <remarks>
@@ -76,7 +76,6 @@ namespace Versit.Core
         protected VersitBase(VersitObjectType type)
         {
             // initialise basic defaults
-            this.Version = "2.1";
             this.Type = type;
             this.InnerElements = new Dictionary<VersitObjectType, VersitObjectCollection>();
 
@@ -97,18 +96,13 @@ namespace Versit.Core
         /// </summary>
         public string Version
         {
-            get;
-            protected set;
+            get { return "2.1"; }
         }
 
         /// <summary>
         /// Gets the type of this object.
         /// </summary>
-        public VersitObjectType Type
-        {
-            get;
-            protected set;
-        }
+        public VersitObjectType Type { get; private set; }
 
         /// <summary>
         /// Gets or sets the last revision date of this object.
@@ -209,7 +203,6 @@ namespace Versit.Core
         public virtual void Export(IExporter exporter)
         {
             // TODO: asses whether this is sufficient
-
             exporter.WriteBeginTag(this);
 
             // export all fields in all field groups

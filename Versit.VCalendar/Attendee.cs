@@ -56,9 +56,9 @@ namespace Versit.VCalendar
         /// <summary>
         /// Gets or sets the participating status of the attendee.
         /// </summary>
-        public Status ParticipantStatus
+        public CalendarStatus ParticipantStatus
         {
-            get { return this.GetEnumParameter<Status>("PARTSTAT"); }
+            get { return this.GetEnumParameter<CalendarStatus>("PARTSTAT"); }
             set { this.SetParameter("PARTSTAT", value); }
         }
 
@@ -111,7 +111,7 @@ namespace Versit.VCalendar
         {
             this.Parameters.Clear();
             this.Parameters.Add("CUTYPE", CuType.UNKNOWN.ToString());
-            this.Parameters.Add("PARTSTAT", Status.UNKNOWN.ToString());
+            this.Parameters.Add("PARTSTAT", CalendarStatus.UNKNOWN.ToString());
             this.Parameters.Add("ROLE", RoleType.UNKNOWN.ToString());
             this.Parameters.Add("EXPECT", ExpectType.UNKNOWN.ToString());
             this.Parameters.Add("RSVP", "NO");

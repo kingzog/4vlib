@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VEmail.cs" company="4verse">
+// <copyright file="Email.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -14,8 +14,9 @@ namespace Versit.VCard
     public class Email : Property<string>
     {
         /// <summary>
-        /// Initializes a new instance of the VEmail class.
+        /// Initializes a new instance of the Email class.
         /// </summary>
+        /// <param name="value">Email address</param>
         public Email(string value)
             : base("EMAIL", value)
         {

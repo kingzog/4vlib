@@ -1,4 +1,10 @@
-﻿using System;
+﻿//-----------------------------------------------------------------------
+// <copyright file="AssemblyInfo.cs" company="4verse">
+//     Copyright (C) 4verse. All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+
+using System;
 using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;

@@ -35,7 +35,7 @@
       </Rules>
       <AnalyzerSettings>
         <StringProperty Name="CompanyName">4verse</StringProperty>
-        <StringProperty Name="Copyright">Copyright (c) 4verse. All rights reserved.</StringProperty>
+        <StringProperty Name="Copyright">Copyright (C) 4verse. All rights reserved.</StringProperty>
       </AnalyzerSettings>
     </Analyzer>
     <Analyzer AnalyzerId="Microsoft.StyleCop.CSharp.OrderingRules">

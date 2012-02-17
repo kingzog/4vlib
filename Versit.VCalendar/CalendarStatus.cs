@@ -13,7 +13,7 @@ namespace Versit.VCalendar
     /// This property can be used when the ATTENDEE property 
     /// is either not supported or not needed
     /// </remarks>
-    public enum Status
+    public enum CalendarStatus
     {
         /// <summary>
         /// Indicates an unknown or blank value

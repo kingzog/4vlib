@@ -18,7 +18,7 @@ namespace Versit.Core
     public class Text : Property<string>
     {
         /// <summary>
-        /// Initializes a new instance of the VText class.
+        /// Initializes a new instance of the Text class.
         /// </summary>
         /// <param name="name">Property name</param>
         public Text(string name)
@@ -27,7 +27,7 @@ namespace Versit.Core
         }
 
         /// <summary>
-        /// Initializes a new instance of the VText class.
+        /// Initializes a new instance of the Text class.
         /// </summary>
         /// <param name="name">Property name</param>
         /// <param name="value">Property value</param>

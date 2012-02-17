@@ -4,9 +4,10 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Versit.Core;
 namespace Versit.VCalendar
 {
+    using Versit.Core;
+
     /// <summary>
     /// An alarm which sends an email to a group of attendees.
     /// </summary>

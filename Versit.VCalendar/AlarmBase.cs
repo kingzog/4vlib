@@ -7,9 +7,9 @@
 namespace Versit.VCalendar
 {
     using System;
-    using Versit.Core.Properties;
     using System.Collections.Generic;
     using Versit.Core;
+    using Versit.Core.Properties;
 
     /// <summary>
     /// Provides a grouping of component properties that define an 
@@ -58,6 +58,7 @@ namespace Versit.VCalendar
             {
                 return GetPropertyValue<TimeSpan>("DURATION");
             }
+
             set
             {
                 if (!this.Repeat.HasValue)
@@ -81,6 +82,7 @@ namespace Versit.VCalendar
             {
                 return GetPropertyValue<int?>("REPEAT");
             }
+
             set
             {
                 if (value.HasValue && value.Value < 0)

@@ -66,8 +66,8 @@ namespace Versit.VCalendar.Test
         public void Status()
         {
             Todo target = new Todo();
-            Status expected = Versit.VCalendar.Status.DECLINED;
-            Status actual;
+            CalendarStatus expected = Versit.VCalendar.CalendarStatus.DECLINED;
+            CalendarStatus actual;
             target.Status = expected;
             actual = target.Status;
             Assert.AreEqual(expected, actual);
@@ -85,8 +85,8 @@ namespace Versit.VCalendar.Test
         public void AddAttendee()
         {
             Todo todo = new Todo();
-            var attendee1 = new Attendee(new Uri("mailto:joe@example.com")) {ParticipantStatus = Status.ACCEPTED };
-            var attendee2 = new Attendee(new Uri("mailto:bob@example.com")) { ParticipantStatus = Status.DECLINED };
+            var attendee1 = new Attendee(new Uri("mailto:joe@example.com")) {ParticipantStatus = CalendarStatus.ACCEPTED };
+            var attendee2 = new Attendee(new Uri("mailto:bob@example.com")) { ParticipantStatus = CalendarStatus.DECLINED };
 
             todo.Attendees.Add(attendee1);
 
@@ -103,8 +103,8 @@ namespace Versit.VCalendar.Test
         public void RemoveAttendee()
         {
             Todo todo = new Todo();
-            var attendee1 = new Attendee(new Uri("mailto:joe@example.com")) { ParticipantStatus = Status.ACCEPTED };
-            var attendee2 = new Attendee(new Uri("mailto:bob@example.com")) { ParticipantStatus = Status.DECLINED };
+            var attendee1 = new Attendee(new Uri("mailto:joe@example.com")) { ParticipantStatus = CalendarStatus.ACCEPTED };
+            var attendee2 = new Attendee(new Uri("mailto:bob@example.com")) { ParticipantStatus = CalendarStatus.DECLINED };
 
             todo.Attendees.Add(attendee1);
             todo.Attendees.Add(attendee2);

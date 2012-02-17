@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VTelephone.cs" company="4verse">
+// <copyright file="Telephone.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -18,7 +18,7 @@ namespace Versit.VCard
     public class Telephone : Property<string>
     {
         /// <summary>
-        /// Initializes a new instance of the VTelephone class.
+        /// Initializes a new instance of the Telephone class.
         /// </summary>
         public Telephone()
             : base("TEL", string.Empty)

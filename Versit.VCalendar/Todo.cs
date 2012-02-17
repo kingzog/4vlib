@@ -28,7 +28,7 @@ namespace Versit.VCalendar
 
             this.Fields.Add(new Property<decimal>("PERCENT-COMPLETE", 0));
             this.Fields.Add(new Property<int>("PRIORITY", 0));
-            this.Fields.Add(new Property<Status>("STATUS", Status.SENT));
+            this.Fields.Add(new Property<CalendarStatus>("STATUS", CalendarStatus.SENT));
         }
 
         /// <summary>
@@ -91,10 +91,10 @@ namespace Versit.VCalendar
         /// <summary>
         /// Gets or sets the status of this todo item.
         /// </summary>
-        public Status Status
+        public CalendarStatus Status
         {
-            get { return GetPropertyValue<Status>("STATUS"); }
-            set { SetPropertyValue<Status>("STATUS", value); }
+            get { return GetPropertyValue<CalendarStatus>("STATUS"); }
+            set { SetPropertyValue<CalendarStatus>("STATUS", value); }
         }
     }
 }

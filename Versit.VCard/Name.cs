@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VName.cs" company="4verse">
+// <copyright file="Name.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -18,7 +18,7 @@ namespace Versit.VCard
     public class Name : Property<string[]>
     {
         /// <summary>
-        /// Initializes a new instance of the VName class.
+        /// Initializes a new instance of the Name class.
         /// </summary>
         public Name()
             : base("N", new string[5])
@@ -26,7 +26,7 @@ namespace Versit.VCard
         }
 
         /// <summary>
-        /// Initializes a new instance of the VName class.
+        /// Initializes a new instance of the Name class.
         /// </summary>
         /// <param name="firstName">First or given name</param>
         /// <param name="lastName">Last or family name</param>

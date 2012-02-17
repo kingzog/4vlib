@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VContact.cs" company="4verse">
+// <copyright file="Contact.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -30,7 +30,7 @@ namespace Versit.VCard
         private const string EmailFieldsKey = "EMAIL";
 
         /// <summary>
-        /// Initializes a new instance of the VContact class.
+        /// Initializes a new instance of the Contact class.
         /// </summary>
         public Contact()
             : base(VersitObjectType.VCARD)

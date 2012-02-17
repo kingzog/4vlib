@@ -1,0 +1,204 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="BinaryEncoding.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>12/22/2010 22:38:37</timestamp>
+    <milliseconds>131</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CalAddress.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 21:09:07</timestamp>
+    <milliseconds>279</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ClassificationType.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>12/22/2010 22:38:51</timestamp>
+    <milliseconds>196</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Coordinates.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>01/10/2011 00:26:04</timestamp>
+    <milliseconds>748</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="EncodingType.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>12/22/2010 22:40:39</timestamp>
+    <milliseconds>542</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IAttachment.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:28:19</timestamp>
+    <milliseconds>750</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IExporter.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:34:20</timestamp>
+    <milliseconds>954</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ImageType.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>12/22/2010 22:40:49</timestamp>
+    <milliseconds>872</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IProperty.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:28:19</timestamp>
+    <milliseconds>765</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IVersitObject.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:34:21</timestamp>
+    <milliseconds>94</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:39:57</timestamp>
+    <milliseconds>460</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:41:33</timestamp>
+    <milliseconds>408</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="PropertyCollection.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:31:53</timestamp>
+    <milliseconds>292</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Property.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:14:21</timestamp>
+    <milliseconds>721</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VersitObjectType.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 20:27:37</timestamp>
+    <milliseconds>191</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AttachBinary.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:15:13</timestamp>
+    <milliseconds>305</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AttachUri.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:15:22</timestamp>
+    <milliseconds>442</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="BinaryData.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:15:26</timestamp>
+    <milliseconds>604</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Image.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:15:33</timestamp>
+    <milliseconds>743</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Text.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:15:56</timestamp>
+    <milliseconds>469</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VersitObjectCollection.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:17:25</timestamp>
+    <milliseconds>39</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1492100859">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="VersitBase.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>02/16/2012 23:15:03</timestamp>
+      <milliseconds>538</milliseconds>
+    </settings>
+    <timestamp>02/16/2012 23:17:13</timestamp>
+    <milliseconds>333</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>

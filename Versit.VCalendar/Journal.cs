@@ -1,12 +1,13 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VJournal.cs" company="4verse">
+// <copyright file="Journal.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Versit.Core;
 namespace Versit.VCalendar
 {
+    using Versit.Core;
+
     /// <summary>
     /// Represents one or more descriptive text notes 
     /// associated with a particular calendar date.

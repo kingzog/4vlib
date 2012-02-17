@@ -17,7 +17,7 @@ namespace Versit.Core
     public class AttachUri : Property<Uri>, IProperty, IAttachment
     {
         /// <summary>
-        /// Initializes a new instance of the VAttachUri class.
+        /// Initializes a new instance of the AttachUri class.
         /// </summary>
         public AttachUri()
             : this(null)
@@ -25,7 +25,7 @@ namespace Versit.Core
         }
 
         /// <summary>
-        /// Initializes a new instance of the VAttachUri class.
+        /// Initializes a new instance of the AttachUri class.
         /// </summary>
         /// <param name="uri">Attachment Uri</param>
         public AttachUri(Uri uri)

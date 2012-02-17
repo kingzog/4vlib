@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="VAddress.cs" company="4verse">
+// <copyright file="Address.cs" company="4verse">
 //     Copyright (C) 4verse. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -18,7 +18,7 @@ namespace Versit.VCard
     public class Address : Property<string[]>
     {
         /// <summary>
-        /// Initializes a new instance of the VAddress class.
+        /// Initializes a new instance of the Address class.
         /// </summary>
         public Address() :
             base("ADR", new string[9])

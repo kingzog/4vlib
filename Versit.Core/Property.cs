@@ -19,11 +19,11 @@ namespace Versit.Core
     /// associated <c>IVObject</c>.
     /// </summary>
     /// <typeparam name="T">Type of value this property holds</typeparam>
-    [Serializable()]
+    [Serializable]
     public class Property<T> : IProperty
     {
         /// <summary>
-        /// Initializes a new instance of the VProperty class.
+        /// Initializes a new instance of the Property class.
         /// </summary>
         /// <param name="name">Property name</param>
         /// <param name="value">Property value</param>
@@ -43,7 +43,7 @@ namespace Versit.Core
         }
 
         /// <summary>
-        /// Gets the name of this property.
+        /// Gets or sets the name of this property.
         /// </summary>
         /// <example>FN, ORG, ADR</example>
         public string Name { get; set; }
@@ -196,7 +196,7 @@ namespace Versit.Core
             
             if (this.ValueType() == typeof(Coordinates))
             {
-                var value = ((Coordinates)Convert.ChangeType(this.Value, typeof(Coordinates), CultureInfo.CurrentCulture));
+                var value = (Coordinates)Convert.ChangeType(this.Value, typeof(Coordinates), CultureInfo.CurrentCulture);
                 return (value.Latitude * value.Longitude) == null;    // null value in either nullifies this struct
             }
             
@@ -212,7 +212,7 @@ namespace Versit.Core
 
             if (this.Value is TimeSpan)
             {
-                var value = ((TimeSpan)Convert.ChangeType(this.Value, typeof(TimeSpan), CultureInfo.CurrentCulture));
+                var value = (TimeSpan)Convert.ChangeType(this.Value, typeof(TimeSpan), CultureInfo.CurrentCulture);
                 return value.Ticks > 0;
             }
 
